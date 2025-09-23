@@ -32,7 +32,7 @@
         android:text="@string/inf_description"/>
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/tv_button"
+        android:id="@+id/tv_btn_to_page2"
         android:text="@string/next"
         android:layout_gravity="right"
         app:backgroundTint="@color/green"
