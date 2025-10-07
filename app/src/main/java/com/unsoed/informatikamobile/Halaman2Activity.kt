@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.unsoed.informatikamobile.databinding.ActivityHalaman2Binding
 
+
 class Halaman2Activity : AppCompatActivity() {
     private lateinit var binding: ActivityHalaman2Binding
 
@@ -48,6 +49,11 @@ class Halaman2Activity : AppCompatActivity() {
             it.tvLayout.setText(R.string.telepon)
         }
 
+        binding.layoutBuku.let {
+            it.imgIcon.setImageResource(R.drawable.ic_book)
+            it.tvLayout.setText(R.string.buku)
+        }
+
     }
 
     private fun initListener(){
@@ -81,6 +87,9 @@ class Halaman2Activity : AppCompatActivity() {
 
         binding.btnBack.setOnClickListener {
             finish()
+        }
+        binding.layoutBuku.root.setOnClickListener{
+            startActivity(Intent(this, DaftarBukuActivity::class.java))
         }
     }
 }
