@@ -8,3 +8,6 @@ M Edwi Tsanystya Raihan | H1D023087 | Shift A -> F
 
 # Tugas 3 Pertemuan 4
 ![](Screen_recording_20250930_165351.gif)
+
+# Tugas 4 Pertemuan 5
+![](Screen_recording_20251007_185254.gif)
